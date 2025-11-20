@@ -15,6 +15,7 @@ uint64_t descendingOrder(uint64_t a)
     dzialanie = a % 10;
     liczby.push_back(dzialanie);  
     a = a/10;
+    
   }
 
   //sortowanie vectora
